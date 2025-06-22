@@ -19,13 +19,13 @@ The model architecture follows Johnson et al.'s design, featuring residual block
 * Content loss: MSE between feature representations of content and stylized images
 * Style loss: MSE between Gram matrices of feature maps
 
-For mathematical details and implementation insights, check out my [notebook](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/notebooks/neural_style_transfer.ipynb) included in this repository.
+For mathematical details and implementation insights, check out my [notebook](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/notebooks/neural_style_transfer.ipynb) included in this repository.
 
 ---
 ## Installation 
 
 ```bash
-git clone https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer.git
+git clone https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer.git
 cd Perceptual-Losses-Neural-Style-Transfer
 pip install -r requirements.txt
 ```
@@ -51,7 +51,7 @@ I recommend using CUDA 12.1 or higher for better performance.
 
 ### 4. Use the Pretrained Model
 - If you don't want to train the model yourself, you can use the pretrained model available in this repository.
-  You can download the checkpoints [Pretrained Model](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/models/checkpoints/).
+  You can download the checkpoints [Pretrained Model](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/models/checkpoints/).
   And after loading them you can just simply test the different version of model. 
 ---
 
@@ -60,10 +60,10 @@ Below are some example results of the style transfer model:
 
 | Content Image | Style Image | Stylized Image |
 |---------------|-------------|----------------|
-| ![new4](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/content_dir/image_04.jpg) | ![new5](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/style_images/image_01.jpg) | ![new6](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/styled_image_02.png) |
-| ![new1](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/content_dir/family-gc23518eae_640.jpg) | ![new2](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/style_images/mosaic.jpg) | ![new3](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/styled_image_01.png) |
-| ![Content](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/content_dir/test_image_01.png) | ![style](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/style_images/Vincent_van_Gogh.png) | ![stylized](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/styled_image.png) |
-| ![new6](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/content_dir/image_05.jpg) | ![new7](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/style_images/image_03.jpg) | ![new8](https://github.com/emanalytic/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/styled_image_03.png) |
+| ![new4](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/content_dir/image_04.jpg) | ![new5](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/style_images/image_01.jpg) | ![new6](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/styled_image_02.png) |
+| ![new1](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/content_dir/family-gc23518eae_640.jpg) | ![new2](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/style_images/mosaic.jpg) | ![new3](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/styled_image_01.png) |
+| ![Content](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/content_dir/test_image_01.png) | ![style](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/style_images/Vincent_van_Gogh.png) | ![stylized](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/styled_image.png) |
+| ![new6](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/content_dir/image_05.jpg) | ![new7](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/style_images/image_03.jpg) | ![new8](https://github.com/affaannn/Perceptual-Losses-Neural-Style-Transfer/blob/main/data/styled_image_03.png) |
 
 ---
 
